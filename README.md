@@ -49,7 +49,7 @@ The Function that is used by this app is located at `src/main/java/com/example/h
 You can build the project using the provided Maven wrapper:
 
 ```bash
-./mvnw clean package
+./mvnw -DskipTests clean package
 ```
 
 ## Standalone app with embedded Tomcat server and local Kafka
